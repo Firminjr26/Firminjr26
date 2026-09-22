@@ -128,7 +128,7 @@ I turn a product idea into software people can use: invitation flows, event site
 <div align="center">
 
 <img src="https://github-stats-extended.vercel.app/api?username=Firminjr26&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark" alt="Jesse Mallya GitHub statistics" height="170" />
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Firminjr26&layout=compact&langs_count=8&hide_border=true&theme=github_dark" alt="Most-used languages" height="170" />
+<img src="./profile/top-langs.svg" alt="Most-used languages" height="170" />
 
 <br />
 
