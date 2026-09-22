@@ -119,3 +119,34 @@ I turn a product idea into software people can use: invitation flows, event site
 2026  Software Engineer Intern at OpusFesta, shipping invitation workflows
   │
  now  Building full-stack products people actually use
+'''
+## GitHub activity
+
+`05 / OPEN-SOURCE SIGNAL`
+
+<div align="center">
+
+<img src="https://github-stats-extended.vercel.app/api?username=Firminjr26&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark" alt="Jesse Mallya GitHub statistics" height="170" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Firminjr26&layout=compact&langs_count=8&hide_border=true&theme=github_dark" alt="Most-used languages" height="170" />
+
+<br />
+
+<img src="https://streak-stats.demolab.com?user=Firminjr26&theme=github-dark&hide_border=true" alt="Contribution streak" width="100%" />
+
+</div>
+
+---
+
+<div align="center">
+
+<h3>Have a product or platform idea?</h3>
+
+I’m open to thoughtful engineering collaborations and opportunities to build useful software.
+
+<a href="mailto:jessemallya@gmail.com"><strong>Start a conversation →</strong></a>
+
+<br /><br />
+
+<sub>Dar es Salaam, Tanzania · Full-stack development · Computer Engineering</sub>
+
+</div>
