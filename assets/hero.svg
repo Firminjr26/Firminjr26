@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Jesse Mallya — full-stack developer</title>
+  <desc id="desc">Dark banner for Jesse Firmin Mallya, full-stack developer in Dar es Salaam.</desc>
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0d11"/>
+      <stop offset="0.6" stop-color="#14110e"/>
+      <stop offset="1" stop-color="#0c0d11"/>
+    </linearGradient>
+    <radialGradient id="copperGlow">
+      <stop offset="0" stop-color="#e07a4a" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#e07a4a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldGlow">
+      <stop offset="0" stop-color="#f2c14e" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#f2c14e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e07a4a"/>
+      <stop offset="0.55" stop-color="#f2c14e"/>
+      <stop offset="1" stop-color="#f3efe8"/>
+    </linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" fill="none" stroke="#f3efe8" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+    <clipPath id="frameClip">
+      <rect width="1280" height="420" rx="28"/>
+    </clipPath>
+    <style>
+      .label { font: 600 13px ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: 2.4px; }
+      .name { font: 700 68px Inter, ui-sans-serif, system-ui, sans-serif; letter-spacing: -2.4px; }
+      .role { font: 500 20px Inter, ui-sans-serif, system-ui, sans-serif; }
+      .mono { font: 500 14px ui-monospace, SFMono-Regular, Consolas, monospace; }
+      .orbit { animation: orbit 14s linear infinite; transform-origin: 1092px 78px; }
+      .pulse { animation: pulse 2.6s ease-in-out infinite; transform-origin: center; }
+      .dash { animation: dash 12s linear infinite; }
+      .blink { animation: blink 1.1s steps(1) infinite; }
+      @keyframes orbit { to { transform: rotate(360deg); } }
+      @keyframes pulse { 0%,100% { opacity:.45; } 50% { opacity:1; } }
+      @keyframes dash { to { stroke-dashoffset:-240; } }
+      @keyframes blink { 50% { opacity:0; } }
+      @media (prefers-reduced-motion: reduce) { .orbit,.pulse,.dash,.blink { animation:none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frameClip)">
+    <rect width="1280" height="420" fill="url(#canvas)"/>
+    <rect width="1280" height="420" fill="url(#grid)"/>
+    <circle cx="1088" cy="70" r="250" fill="url(#copperGlow)" filter="url(#softBlur)"/>
+    <circle cx="180" cy="400" r="200" fill="url(#goldGlow)" filter="url(#softBlur)"/>
+    <path class="dash" d="M-40 300C160 250 280 360 500 300S860 210 1280 250" fill="none" stroke="url(#signal)" stroke-opacity="0.55" stroke-width="1.6" stroke-dasharray="7 12"/>
+    <g opacity="0.9">
+      <circle cx="1092" cy="78" r="52" fill="none" stroke="#e07a4a" stroke-opacity="0.35"/>
+      <circle cx="1092" cy="78" r="76" fill="none" stroke="#f2c14e" stroke-opacity="0.2" stroke-dasharray="2 8"/>
+      <g class="orbit">
+        <circle cx="1092" cy="2" r="4.5" fill="#e07a4a"/>
+        <circle cx="1168" cy="78" r="3" fill="#f2c14e"/>
+      </g>
+      <circle class="pulse" cx="1092" cy="78" r="7" fill="#e07a4a"/>
+    </g>
+    <g transform="translate(72 64)">
+      <rect width="158" height="30" rx="15" fill="#1a140f" stroke="#e07a4a" stroke-opacity="0.55"/>
+      <circle class="pulse" cx="18" cy="15" r="4" fill="#e07a4a"/>
+      <text class="label" x="32" y="20" fill="#f3efe8">AVAILABLE</text>
+      <text class="name" x="0" y="124" fill="#f3efe8">JESSE</text>
+      <text class="name" x="0" y="192" fill="#f3efe8">MALLYA</text>
+      <rect x="2" y="214" width="430" height="3" rx="1.5" fill="url(#signal)"/>
+      <text class="role" x="0" y="258" fill="#c8b8a8">Full-stack development · Product systems</text>
+    </g>
+    <g transform="translate(812 198)">
+      <rect width="392" height="156" rx="18" fill="#14110e" fill-opacity="0.92" stroke="#f3efe8" stroke-opacity="0.12"/>
+      <circle cx="24" cy="24" r="4" fill="#e07a4a"/>
+      <circle cx="40" cy="24" r="4" fill="#f2c14e"/>
+      <circle cx="56" cy="24" r="4" fill="#f3efe8" fill-opacity="0.7"/>
+      <text class="mono" x="22" y="64" fill="#6e665e">$</text>
+      <text class="mono" x="40" y="64" fill="#e07a4a">current_focus</text>
+      <text class="mono" x="22" y="92" fill="#f3efe8">→ invitation workflows</text>
+      <text class="mono" x="22" y="116" fill="#f3efe8">→ event platforms</text>
+      <text class="mono" x="22" y="140" fill="#f3efe8">→ full-stack products</text>
+    </g>
+    <text class="label" x="72" y="386" fill="#6e665e">DAR ES SALAAM / TANZANIA</text>
+    <text class="label" x="1048" y="386" fill="#6e665e">BUILD 2026.09</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="419" rx="27.5" fill="none" stroke="#f3efe8" stroke-opacity="0.12"/>
+</svg>
