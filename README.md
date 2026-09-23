@@ -45,12 +45,14 @@ I turn a product idea into software people can use: invitation flows, event site
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="./assets/projects/dates-to-come.jpg" alt="Dates to Come landing page" width="100%" />
       <h3>Dates to Come</h3>
       <p>Full-stack dating platform where a host creates a personal page and invites people with a private link. Includes waitlists, messaging, payments, an admin dashboard, and an AI assistant that answers from live data.</p>
       <p><code>Next.js</code> <code>TypeScript</code> <code>Node.js</code> <code>Supabase</code></p>
       <a href="https://dates-to-come.vercel.app/">View project ↗</a>
     </td>
     <td width="50%" valign="top">
+      <img src="./assets/projects/king-empire.png" alt="King Empire event site" width="100%" />
       <h3>King Empire</h3>
       <p>Public site for a Dar es Salaam event brand: past and upcoming events, gallery, and ticket-payment links so guests can book online.</p>
       <p><code>HTML</code> <code>CSS</code> <code>JavaScript</code></p>
@@ -65,6 +67,7 @@ I turn a product idea into software people can use: invitation flows, event site
       <a href="https://github.com/Firminjr26/ONLINE-TASK-MANAGMENT-SYSTEM">View repository ↗</a>
     </td>
     <td width="50%" valign="top">
+      <img src="./assets/projects/portfolio.jpg" alt="Jesse Mallya portfolio site" width="100%" />
       <h3>Portfolio</h3>
       <p>Personal site covering shipped work, roles at OpusFesta and King Empire, and a digital twin that answers questions about the projects.</p>
       <p><code>HTML</code> <code>CSS</code> <code>JavaScript</code></p>
