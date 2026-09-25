@@ -57,6 +57,16 @@ I build the product, not just the page: invitation flows, ticket payments, campu
       <a href="https://jesse-mallya-portfolio.vercel.app/">Live site ↗</a>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./assets/projects/santan-collection.png" alt="Santan Collection" width="100%" />
+      <h3>Santan Collection</h3>
+      <p>Clothing storefront for a Dar es Salaam brand. T-shirts, caps, hoodies, and socks, with English and Swahili. Customers request a piece. No payment on the site.</p>
+      <p><code>Next.js</code> <code>TypeScript</code></p>
+      <a href="https://santan-collection.vercel.app/">Live site ↗</a>
+    </td>
+    <td width="50%" valign="top"></td>
+  </tr>
 </table>
 
 ## Tools I take to production
